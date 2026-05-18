@@ -5,6 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <androidx.cardview.widget.CardView
+        android:backgroundTint="#5A9CB5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_width="match_parent"
@@ -30,6 +31,7 @@
 
                 <TextView
                     android:id="@+id/tvNamaBangunDatar"
+                    android:textColor="#FFF"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Nama Bangun Datar"
@@ -43,7 +45,7 @@
                     android:layout_height="wrap_content"
                     android:text="Keliling"
                     android:textSize="13dp"
-                    android:textColor="#888888"/>
+                    android:textColor="#FFFF"/>
 
                 <TextView
                     app:layout_constraintTop_toBottomOf="@id/tvKeliling"
@@ -52,7 +54,7 @@
                     android:layout_height="wrap_content"
                     android:text="Luas"
                     android:textSize="13dp"
-                    android:textColor="#888888"/>
+                    android:textColor="#FFFF"/>
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
